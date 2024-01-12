@@ -1,10 +1,12 @@
-
+html{
+    scroll-behavior: smooth;
+}
 .myContainer {
     width: 100%;
     height: 100%;
     scroll-snap-type: y mandatory; /* 'y' for vertical scrolling */
     overflow-y: scroll; /* Enable scrolling */
-    scroll-behavior: smooth;
+
   }
 section{
     width: 100%;
@@ -28,11 +30,14 @@ section{
     
     
 }
+.skillsImg{
+    height: 400px; display: flex; align-items: center; justify-content: center;margin-right: 75px;
+}
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
-header {
+.custom-bar {
     position: fixed;
     top: 0;
     width: 100%; /* Or any color you prefer */
@@ -41,5 +46,16 @@ header {
 }
 
 main {
-    padding-top: 10000px; /* Adjust this value based on the height of your header */
+    padding-top: 120px; /* Adjust this value based on the height of your header */
 }
+iframe{
+    filter: invert(100%);
+}
+@media(max-width:1000px){
+    .skillsImg{
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+  }

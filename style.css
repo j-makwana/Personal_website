@@ -20,7 +20,9 @@ section{
     width: auto;
 }
 
-
+.custom-border{
+    border-radius: 25%;
+}
 .background{
     background-image: url(bg2.png);
     background-size: cover;

@@ -49,9 +49,7 @@ section{
 main {
     padding-top: 120px; /* Adjust this value based on the height of your header */
 }
-.custom-new-pad{
-    margin-top: 80px;
-}
+
 iframe{
     filter: invert(100%);
 }
@@ -71,7 +69,11 @@ iframe{
         height: 100vh;
         scroll-snap-align: none;
     }
-
+    .custom-img-size {
+        max-height: 250px; /* Adjust as needed */
+        height: auto;
+        width: auto;
+    }
     .skillsImg{
         height: 250px;
         align-items: center;
@@ -82,6 +84,6 @@ iframe{
         display: none;
     }
     .custom-new-pad{
-        margin-top: 900px;
+        margin-top: 1000px;
     }
   }

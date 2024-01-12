@@ -59,12 +59,16 @@ iframe{
     .myContainer {
         width: 100%;
         height: 100%;
+        scroll-snap-type: none;
+        overflow-y: auto;
         
     
       }
     .section{
         width: 100%;
         height: 100vh; 
+        scroll-snap-align: none;
+        
     
       }
     .skillsImg{

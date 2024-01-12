@@ -63,6 +63,14 @@ iframe{
         scroll-snap-type: none;
         overflow-y: auto;
     }
+    .orientation{
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        width: 100%;
+        background-color: #6c757d;
+        
+    }
 
     section {
         width: 100%;

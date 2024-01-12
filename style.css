@@ -56,21 +56,22 @@ iframe{
     filter: invert(100%);
 }
 @media(max-width:1000px){
+    html{
+        scroll-behavior: auto;
+    }
     .myContainer {
         width: 100%;
         height: 100%;
         scroll-snap-type: none;
         overflow-y: auto;
-        
-    
-      }
-    .section{
+    }
+
+    section {
         width: 100%;
-        height: 100vh; 
+        height: 100vh;
         scroll-snap-align: none;
-        
-    
-      }
+    }
+
     .skillsImg{
         height: 250px;
         align-items: center;

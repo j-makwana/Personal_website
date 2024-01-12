@@ -12,6 +12,7 @@ section{
     width: 100%;
     height: 100vh; 
     scroll-snap-align: center; 
+    margin-bottom: 50px;
   }
 .custom-img-size {
     max-height: 500px; /* Adjust as needed */
@@ -48,14 +49,34 @@ section{
 main {
     padding-top: 120px; /* Adjust this value based on the height of your header */
 }
+.custom-new-pad{
+    margin-top: 80px;
+}
 iframe{
     filter: invert(100%);
 }
 @media(max-width:1000px){
+    .myContainer {
+        width: 100%;
+        height: 100%;
+        
+    
+      }
+    .section{
+        width: 100%;
+        height: 100vh; 
+    
+      }
     .skillsImg{
         height: 250px;
         align-items: center;
         justify-content: center;
         margin: 0;
+    }
+    .custom-disp{
+        display: none;
+    }
+    .custom-new-pad{
+        margin-top: 900px;
     }
   }

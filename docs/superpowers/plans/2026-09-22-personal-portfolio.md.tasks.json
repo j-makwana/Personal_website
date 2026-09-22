@@ -4,30 +4,36 @@
     {
       "id": 1,
       "subject": "Task 1: Prepare verified assets",
-      "status": "pending",
-      "description": "**Goal:** Create a self-contained content and asset foundation with current contact details, résumé, fonts and optimized project imagery.\n\n**Files:**\n- Create: `assets/fonts/*`, `assets/images/*`, `scripts/verify_content.py`\n- Replace: `Jenil-resume.pdf`\n\n**Acceptance Criteria:**\n- [ ] Current résumé extracts `jmakwana@cs.cmu.edu`.\n- [ ] Images are web-sized and sourced.\n- [ ] Fonts are local.\n- [ ] Verification rejects stale contacts, typos, em dashes and missing metrics.\n\n**Verify:** `python3 scripts/verify_content.py` prints `content verification passed`.\n\n```json:metadata\n{\"files\":[\"assets/fonts\",\"assets/images\",\"Jenil-resume.pdf\",\"scripts/verify_content.py\"],\"verifyCommand\":\"python3 scripts/verify_content.py\",\"acceptanceCriteria\":[\"Current resume and contact details\",\"Locally hosted fonts and sourced images\",\"Content verification passes\"],\"modelTier\":\"standard\"}\n```"
+      "status": "completed",
+      "description": "**Goal:** Create a self-contained content and asset foundation with current contact details, r\u00e9sum\u00e9, fonts and optimized project imagery.\n\n**Files:**\n- Create: `assets/fonts/*`, `assets/images/*`, `scripts/verify_content.py`\n- Replace: `Jenil-resume.pdf`\n\n**Acceptance Criteria:**\n- [ ] Current r\u00e9sum\u00e9 extracts `jmakwana@cs.cmu.edu`.\n- [ ] Images are web-sized and sourced.\n- [ ] Fonts are local.\n- [ ] Verification rejects stale contacts, typos, em dashes and missing metrics.\n\n**Verify:** `python3 scripts/verify_content.py` prints `content verification passed`.\n\n```json:metadata\n{\"files\":[\"assets/fonts\",\"assets/images\",\"Jenil-resume.pdf\",\"scripts/verify_content.py\"],\"verifyCommand\":\"python3 scripts/verify_content.py\",\"acceptanceCriteria\":[\"Current resume and contact details\",\"Locally hosted fonts and sourced images\",\"Content verification passes\"],\"modelTier\":\"standard\"}\n```"
     },
     {
       "id": 2,
       "subject": "Task 2: Build responsive portfolio",
-      "status": "pending",
-      "blockedBy": [1],
+      "status": "completed",
+      "blockedBy": [
+        1
+      ],
       "description": "**Goal:** Replace the Bootstrap page with the full semantic single-page portfolio and distinct personal visual system.\n\n**Files:**\n- Replace: `index.html`, `style.css`\n\n**Acceptance Criteria:**\n- [ ] Hero, proof strip and three case studies present verified fit.\n- [ ] Experience, capabilities, education and contact are current.\n- [ ] No overflow at 375px, 768px or 1440px.\n- [ ] Personal palette is warm paper, graphite and copper.\n\n**Verify:** Serve with `python3 -m http.server 4173` and inspect the three target widths.\n\n```json:metadata\n{\"files\":[\"index.html\",\"style.css\"],\"verifyCommand\":\"python3 -m http.server 4173\",\"acceptanceCriteria\":[\"All planned sections render\",\"Responsive at three target widths\",\"Distinct personal visual identity\"],\"modelTier\":\"frontier\"}\n```"
     },
     {
       "id": 3,
       "subject": "Task 3: Add accessible interactions",
-      "status": "pending",
-      "blockedBy": [2],
+      "status": "completed",
+      "blockedBy": [
+        2
+      ],
       "description": "**Goal:** Add subtle navigation and reveal behavior while keeping the page fully usable without JavaScript.\n\n**Files:**\n- Create: `script.js`, `scripts/verify_markup.py`\n- Modify: `index.html`, `style.css`\n\n**Acceptance Criteria:**\n- [ ] Mobile menu is keyboard-operable.\n- [ ] Reduced motion is respected.\n- [ ] Semantic landmarks, heading order, alt text and safe external links pass verification.\n- [ ] Content remains visible without JavaScript.\n\n**Verify:** `python3 scripts/verify_markup.py` prints `markup verification passed`.\n\n```json:metadata\n{\"files\":[\"script.js\",\"scripts/verify_markup.py\",\"index.html\",\"style.css\"],\"verifyCommand\":\"python3 scripts/verify_markup.py\",\"acceptanceCriteria\":[\"Accessible navigation\",\"Reduced-motion behavior\",\"Markup verification passes\"],\"modelTier\":\"standard\"}\n```"
     },
     {
       "id": 4,
       "subject": "Task 4: Verify and publish Pages",
-      "status": "pending",
-      "blockedBy": [3],
+      "status": "completed",
+      "blockedBy": [
+        3
+      ],
       "description": "**Goal:** Prove the final site works locally and publish the exact verified commit through GitHub Pages.\n\n**Files:**\n- Create: `.nojekyll`, `README.md`\n- Modify: GitHub Pages repository settings only if necessary\n\n**Acceptance Criteria:**\n- [ ] Desktop and mobile renders have no visible defects.\n- [ ] Both verification scripts pass from a clean checkout.\n- [ ] The pushed commit is served at the existing Pages URL.\n- [ ] Production has current email, working assets and no console errors.\n\n**Verify:** `python3 scripts/verify_content.py && python3 scripts/verify_markup.py` plus production browser inspection.\n\n```json:metadata\n{\"files\":[\".nojekyll\",\"README.md\"],\"verifyCommand\":\"python3 scripts/verify_content.py && python3 scripts/verify_markup.py\",\"acceptanceCriteria\":[\"Local verification passes\",\"Production Pages URL serves pushed commit\",\"Production visual inspection passes\"],\"modelTier\":\"standard\"}\n```"
     }
   ],
-  "lastUpdated": "2026-09-22T00:00:00-04:00"
+  "lastUpdated": "2026-09-22T23:22:18.795862+00:00"
 }

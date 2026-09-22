@@ -10,19 +10,19 @@ The existing public URL remains `https://j-makwana.github.io/Personal_website/`.
 
 The primary audience is recruiters and hiring teams for product management, technical product, software engineering and embedded software internships. The opening message should connect those tracks rather than forcing the visitor to choose one identity.
 
-Core positioning: Jenil turns ambiguous user and engineering problems into products that ship. Boxmate supplies the founder and product evidence; USEMCO supplies the AI workflow and adoption evidence; Credo and UW Space Science supply systems depth.
+Core positioning: Jenil turns ambiguous user and engineering problems into products that ship. Boxmate supplies the founder and product evidence; USEMCO supplies the requirements-to-manufacturing story plus AI workflow adoption; Credo and UW Space Science supply systems depth.
 
 ## Design direction
 
-Apply Boxmate's restrained design philosophy to a personal brand:
+Apply Boxmate's restrained design philosophy to a distinct personal brand. Reuse the principles, not Boxmate's complete visual identity:
 
 - Whitespace-first layout with one calm column and generous section spacing.
-- Boxmate Blue `#3A51F9` is the only strong color; use white, cream `#FEF6EB`, ink `#292929`, muted gray and `#EAEAEA` borders elsewhere.
-- Aktiv Grotesk is the primary typeface. Mont is reserved for one hero stamp or compact personal mark.
+- Use a personal palette built around warm paper, graphite and a restrained copper accent inspired by circuit traces and industrial design. Do not copy Boxmate Blue, navy, logo treatments, campus tags or sticker language.
+- Use a clean grotesk typeface with an editorial display face for one hero moment. Do not make the site look like a reskinned Boxmate landing page.
 - Sentence-case headings, short copy and quiet rounded containers.
 - One warm human detail per major surface, using Jenil's real portrait or real project imagery.
 - Motion stays subtle: small reveal transitions, gentle image movement and button feedback. Respect `prefers-reduced-motion`.
-- The site must feel related to Boxmate without using Boxmate's logo as Jenil's personal identity.
+- The relationship to Boxmate should be visible in the restraint and clarity of the layout, not in copied brand assets or colors.
 
 ## Page structure
 
@@ -59,7 +59,7 @@ Use large numerals sparingly and plain captions. Do not imply employer outcomes 
 Three editorial case-study cards appear in priority order.
 
 1. **Boxmate**: two-sided marketplace model, user research, pricing iterations, UI/UX direction, cross-functional team leadership and product traction.
-2. **AI cutsheet workflow at USEMCO**: problem discovery, technical solution, two-pass verification, human review and six-engineer adoption.
+2. **From client requirements to shop-floor release at USEMCO**: control-panel scoping, component and load decisions, EPLAN schematics, compliance and layout review, client revisions and release for assembly. The AI cutsheet workflow appears inside this case study as a product Jenil built after identifying a recurring engineering bottleneck, including two-pass verification, human review and adoption by all six engineers.
 3. **Embedded and scientific systems**: Credo firmware and UW Space Science automation/hardware work, presented as one technical-depth story.
 
 Each case study uses a consistent four-part pattern: problem, role, decisive action and measurable result. Cards should link to available public artifacts only. Private or inaccessible employer repositories must not be presented as public links.

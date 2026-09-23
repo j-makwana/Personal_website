@@ -57,8 +57,30 @@
       <article class="case-study usemco-case" aria-labelledby="usemco-title" data-reveal>
         <div class="case-heading"><p class="eyebrow">01.2 / Electrical engineer · Workflow builder</p><span class="case-date">2026</span></div>
         <div class="case-grid"><div class="case-intro"><h3 id="usemco-title">From a client request<br>to the shop floor.</h3><p class="case-subtitle">USEMCO / Control-panel engineering</p></div><div class="case-summary"><p>A control-panel order needs more than a schematic. I worked with sales on scope, resolved client changes through submittal and resubmittal, and cleared compliance and layout review before releasing EPLAN schematics for assembly.</p></div></div>
-        <ol class="process" aria-label="Control-panel delivery process"><li><span>01</span><h4>Define the scope</h4><p>Translate client requirements with sales.</p></li><li><span>02</span><h4>Resolve the details</h4><p>Develop schematics and handle revisions.</p></li><li><span>03</span><h4>Review & release</h4><p>Clear compliance and layout for assembly.</p></li></ol>
-        <div class="workflow-story"><div><p class="eyebrow">A recurring problem became a product</p><h4>Less searching.<br>More engineering.</h4></div><div><p>Preparing cutsheets meant repetitive document work. I built a Python, Next.js and Claude API tool that extracts and verifies information in two passes, flags missing datasheets and keeps engineers in control with accept/reject review.</p><p>I partnered with the EPLAN team to order datasheets from X/Y exports, then added searchable job history to help reuse schematic sections and track completion.</p><p class="result-line">Adopted by all six engineers across about 18 jobs a week, saving 10–15 minutes per job.</p></div></div>
+        <div class="panel-story">
+          <figure class="panel-visual">
+            <div class="cabinet-scene" aria-hidden="true">
+              <div class="cabinet-layer cabinet-back"><span>01 / Scope</span><div class="cabinet-rail"></div><div class="cabinet-rail"></div><div class="cabinet-rail"></div></div>
+              <div class="cabinet-layer cabinet-components"><span>02 / Layout</span><div class="component-row"><i></i><i></i><i></i></div><div class="wire-path"></div><div class="component-row small"><i></i><i></i><i></i><i></i><i></i></div></div>
+              <div class="cabinet-layer cabinet-front"><span>03 / Release</span><div class="panel-screen"></div><div class="panel-lights"><i></i><i></i><i></i></div><div class="panel-handle"></div></div>
+            </div>
+            <figcaption>Conceptual exploded control panel. An illustration of the design layers, not an employer schematic.</figcaption>
+          </figure>
+          <div class="panel-ownership"><p class="eyebrow">My role / From scope to release</p><h4>Design the panel.<br>Resolve the details.</h4><ol class="ownership-list"><li><strong>Scope with sales</strong><p>Translate client requirements into the control-panel order.</p></li><li><strong>Work through revisions</strong><p>Resolve client changes through submittal and resubmittal.</p></li><li><strong>Review for assembly</strong><p>Complete compliance and layout review before releasing EPLAN schematics to the shop floor.</p></li></ol></div>
+        </div>
+        <div class="cutsheet-story">
+          <div class="cutsheet-heading"><div><p class="eyebrow">The bottleneck / Repetitive manual work</p><h4>Every new job.<br>Another document package.</h4></div><p>Cutsheets bring the relevant component datasheets together for a job. Preparing them manually meant repeating document work across orders. I built a tool to reduce that preparation time while keeping engineer review in the loop.</p></div>
+          <div class="bottleneck"><div class="paper-stack" aria-hidden="true"><span></span><span></span><span><b>DATASHEETS</b><i></i><i></i><i></i></span></div><div class="bottleneck-copy"><span class="eyebrow">Before / Manual preparation</span><p>Prepare the cutsheets.<br>Repeat for the next job.</p></div><span class="bottleneck-arrow" aria-hidden="true">→</span><div class="bottleneck-result"><span class="eyebrow">With the builder</span><strong>10–15 min</strong><span>saved per job</span></div></div>
+          <div class="workflow-heading"><h4>How the cutsheet builder works</h4><p>Python · Next.js · Claude API</p></div>
+          <ol class="cutsheet-flow" aria-label="Cutsheet builder workflow">
+            <li><span class="step-number">01</span><h4>Order</h4><p>Sequence datasheets using EPLAN X/Y exports, in partnership with the EPLAN team.</p><span class="step-note">A consistent starting point</span></li>
+            <li><span class="step-number">02</span><h4>Extract</h4><p>A first pass extracts the information needed for the cutsheet package.</p><span class="step-note">Pass one</span></li>
+            <li><span class="step-number">03</span><h4>Verify</h4><p>A second pass verifies the extracted information and flags missing datasheets.</p><span class="step-note">Pass two</span></li>
+            <li><span class="step-number">04</span><h4>Engineer review</h4><p>The engineer accepts or rejects results. Corrections feed back into the rules.</p><span class="step-note">Human judgment stays central</span></li>
+            <li><span class="step-number">05</span><h4>Reuse</h4><p>Search job history to reuse schematic sections and track completion.</p><span class="step-note">Build on earlier work</span></li>
+          </ol>
+          <div class="workflow-outcome"><p><strong>All six engineers</strong><span>adopted the workflow</span></p><p><strong>~18 jobs / week</strong><span>across the team</span></p><p class="feedback-note">Engineer corrections → better rules for the next job</p></div>
+        </div>
       </article>
       <article class="case-study systems-case" aria-labelledby="systems-title" data-reveal>
         <div class="case-heading"><p class="eyebrow">01.3 / Software engineer intern · Embedded systems</p><span class="case-date">2023 – 2025</span></div>
